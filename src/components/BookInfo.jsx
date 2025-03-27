@@ -1,8 +1,8 @@
 export const BookInfo = (props) => {
   return <div>
-    <p>Year: {props.year}</p>
-    <p>Genre: {props.genre}</p>
-    <p>Rating: {props.rating}</p>
-    <p>Description: {props.description}</p>
+    <p><strong>Year:</strong> {props.year}</p>
+    <p><strong>Genre:</strong> {props.genre}</p>
+    <p><strong>Rating:</strong> {props.rating}</p>
+    <p><strong>Description:</strong> <span className="description">{props.description}</span></p>
   </div>
 }

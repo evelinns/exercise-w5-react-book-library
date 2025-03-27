@@ -1,3 +1,3 @@
 export const Author = (props) => {
-  return <p>{props.author}</p>
+  return <p><strong>Author:</strong> {props.author}</p>
 }

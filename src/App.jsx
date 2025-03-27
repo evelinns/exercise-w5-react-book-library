@@ -11,7 +11,6 @@ function App() {
     <>
       <Header />
       <Book />
-      {/* <div>{books.map((book) => <p>{book.title}</p>)}</div> */}
     </>
   );
 }

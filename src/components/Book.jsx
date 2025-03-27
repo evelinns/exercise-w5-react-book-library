@@ -6,15 +6,16 @@ import { Title } from "./Title";
 
 export const Book = () => {
  const {books} = data;
-//  console.log(data[0].image)
 
- return (<div>
+ return (<div className="container">
    {books.map((book) => (
     <>
+    <div className="book-card">
       <CoverImage image={book.image} title={book.title} />
       <Title title={book.title} />
       <Author author={book.author} />
       <BookInfo year={book.year} genre={book.genre} rating={book.rating} description={book.description} />
+    </div>
     </>
    ))}
  </div>);
